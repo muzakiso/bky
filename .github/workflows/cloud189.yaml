@@ -3,7 +3,7 @@ name: 天翼云盘签到抽奖
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 14,11 * * *"
+        - cron: "0 22,14 * * *"
     watch:
         types: [started]
 
